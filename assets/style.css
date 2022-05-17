@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+main {
+  height: 91vh;
+}
+nav li {
+  display: inline-block;
+  margin-right: 9px;
+}
+nav > ul li a {
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  height: 3em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.blue-text {
+  color: darkblue;
+}
+main * {
+  color: grey;
+}
+body > main > h1 {
+  text-align: center;
+  font-size: 3em;
+}
+body > main > article {
+  text-align: center;
+}
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form > h3 {
+  text-align: left;
+  margin-bottom: 8px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3em;
+  background: #6e6e6e;
+}
+footer p {
+  color: #fff;
+}
+.logo {
+  margin-left: 2em;
+}
+nav {
+  margin-right: 2em;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #7ad2ef;
+}
+.bonsai-bg {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  height: 5em;
+  align-items: center;
+  padding: 0 2em;
+}
+.bonsai-bg li {
+  text-align: center;
+  background: #ffdbed;
+  margin: 8px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+body > main > article > div {
+  margin-bottom: 1em;
+}
+article {
+  margin-top: 2em;
+  min-width: 300px;
+}
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #f0f1f3;
+  padding: 12px;
+  width: 100%;
+}
+section {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+form div {
+  margin: 8px;
+  text-align: left;
+}
+.submit {
+  text-align: center;
+}
+.add-btn {
+  background: lightblue;
+  padding: 12px 20px;
+  border: none;
+  box-shadow: none;
+  width: 40%;
+  margin: 0 auto;
+}
+input[type="text"] {
+  width: 100%;
+  height: 2em;
+}
+a.add-btn:hover, form > div.submit > input:hover{
+  background: #527e8d;
+  color: #FFF;
+}
+section.bonsai-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 1em; */
+}
+.nav-2 {
+  margin: 1em 0;
+  text-align: center;
+}
+body > main > nav > a {
+  color: lightblue;
+}
+.red-text {
+  margin: 0;
+  color: red !important;
+}
+@media(max-width: 767px) {
+  .bonsai-bg {
+    display: block;
+  }
+}
