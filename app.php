@@ -2,7 +2,7 @@
 
 // variables
 
-$title = 'Bonsai Share';
+$site_title = 'Bonsai Share';
 
 $bonsai = ['bonsai_1', 'bonsai_2', 'bonsai_3', 'bonsai_4', 'bonsai_5'];
 

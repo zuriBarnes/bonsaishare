@@ -4,7 +4,7 @@
 
 
 <main>
-    <h1><?= $title; ?> </h1>
+    <h1><?= $site_title; ?> </h1>
     <article>
         <div>
             <a class="add-btn" href="./add.php">Add Bonsai</a>
