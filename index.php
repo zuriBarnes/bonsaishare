@@ -7,10 +7,10 @@
     <h1><?= $site_title; ?> </h1>
     <article>
         <div>
-            <a class="add-btn" href="./add.php">Add Bonsai</a>
+            <a class="add-btn" href="./add.php">Share Bonsai</a>
         </div>
     </article>
-    <section>
+    <!-- <section>
         <h3>Recent Bonsai</h2>
     <ul class='bonsai-bg'>
         <?php foreach($blogs as $blog) : ?>
@@ -20,7 +20,7 @@
             </li>
         <?php endforeach; ?>
     </ul>
-    </section>
+    </section> -->
 </main>
 
 
