@@ -59,7 +59,7 @@ if(isset($_POST['submit'])) {
     <h1><?= $site_title; ?></h1>
     <article>
         <form action="add.php" method="POST">
-            <h3>Add a Bonsai</h3>
+            <h3>Share your Bonsai</h3>
             <div>
                 <label for="nanme">Email</label><br />
                 <input type="text" name="email" id="" value="">
@@ -78,20 +78,20 @@ if(isset($_POST['submit'])) {
             </div>
 
             <div class="submit">
-                <input class="add-btn" type="submit" name="submit" value="submit" id="">
+                <input class="add-btn" type="submit" name="submit" value="shareabout" id="">
             </div>
         </form>
-
+<!-- 
         <section class="bonsai-list">
             <p>Recent trees: </p>
           <?php foreach($blogs as $bonsai) : ?>
             <p><?= $bonsai['title']; ?></p>
         <?php endforeach; ?>
-        </section>
+        </section> -->
     </article>
     <nav class="nav-2">
   
-        <a href="index.php"><---Back to Home</a>
+        <a href="index.php">Back to Home</a>
     </nav>
 </main>
 
