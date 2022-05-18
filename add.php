@@ -17,7 +17,7 @@ if(isset($_POST['submit'])) {
 
     //  check email
     if(empty($_POST['email'])) {
-        $errors['email'] = '<p class="red-text">an email must be entered</p> <br />';
+        $errors['email'] = '<p class="red-text">email must be entered</p> <br />';
     } else {
         $email = $_POST['email'];
         if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -28,7 +28,7 @@ if(isset($_POST['submit'])) {
     
     //  check title
     if(empty($_POST['title'])) {
-        $errors['title'] = '<p class="red-text">a title must be entered</p> <br />';
+        $errors['title'] = '<p class="red-text">title must be entered</p> <br />';
     } else {
         $title = $_POST['title'];    
         if(!preg_match('/^[a-zA-Z\s]+$/', $title)){
@@ -40,7 +40,7 @@ if(isset($_POST['submit'])) {
     if(empty($_POST['info'])) {
         $errors['info'] = '<p class="red-text">info must be entered</p> <br />';
     } else {
-        $title = $_POST['info'];    
+        $info = $_POST['info'];    
         if(!preg_match('/^([a-zA-Z\s]+)(,\s*[a-zA-Z\s]*)*$/', $info)){ // comma seperateed list reqex
             $errors['info'] = 'Info must be a comma separated list';
         }
