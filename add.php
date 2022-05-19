@@ -78,7 +78,7 @@ if(isset($_POST['submit'])) {
             </div>
 
             <div class="submit">
-                <input class="add-btn" type="submit" name="submit" value="shareabout" id="">
+                <input class="add-btn" type="submit" name="submit" value="share" id="">
             </div>
         </form>
 <!-- 
